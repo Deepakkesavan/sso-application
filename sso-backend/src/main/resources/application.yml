@@ -13,6 +13,7 @@ spring:
               - profile
               - email
               - https://graph.microsoft.com/User.Read
+              - https://graph.microsoft.com/User.ReadBasic.All
             redirect-uri: http://localhost:8080/login/oauth2/code/
             client-name: Azure AD
         provider:
